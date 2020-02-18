@@ -58,18 +58,21 @@ body {
     background: #d4d4d4;
 }
 
-.page>aside>.songList {
-    flex: 1;
+.page>aside>.songList-container{
+  flex: 1;
+}
+
+.page>aside .songList {
     text-align: left;
     border-top: 1px solid #333;
 }
 
-.page>aside>.songList>li {
+.page>aside .songList>li {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
 
-.page>aside>.songList>li.active {
+.page>aside .songList>li.active {
     background: #d4d4d4;
 }
 
